@@ -1,0 +1,7 @@
+start with choosing one of the films to see what is the result 
+open burpsuit to analyze and track the request and inject the sql code in the request as the input 
+and write in the movie field the sql 
+first try 0 or 1=1 union all select 1,2,3,4,5,6,7 # 
+the result : that it showed me which columns can replace with sql and get information from database 
+second try : 0 union all select 1,table_schema,table_name,4 ,5 ,6 ,7 from information_schema.tables where 1=0 or 1=1 # 
+it works and displays the result from database .
