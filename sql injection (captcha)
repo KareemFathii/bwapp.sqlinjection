@@ -1,0 +1,17 @@
+
+  frst choose one of the simple basic payload that ' or 1=1 # ;
+  
+  and it prints all the films stored in the database
+  
+  i tried to make him print all the tables name with table schema from the tables 
+  
+  by writing the payload 
+  
+  ' union all select 1,table_schema,table_name,4,5,6,7 from information_schema.tables where 1=0 or 1=1#
+  
+  and it works and print all of the table schema and table names  in the database 
+  
+  As you can see our payload injected a sql injection lets try other payloads .
+ 
+  
+ 
