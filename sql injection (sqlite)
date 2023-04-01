@@ -1,7 +1,7 @@
 first i wanted to know if it accepts an sql injection 
-i wrote ' or 1=1 # but gives me error 
+i wrote ' or 1=1 # but it gives me error 
 i changed it to ' or 1=1 -- it works and display all movies in the database
-i want to know how many columns in the table by using order by let's say 7coloumns 
+i want to know how many columns in the table by using order by let's say 7 coloumns 
 ' order by 7 -- it gives error lets try 6 columns 
 ' order by 6 --
 it works and display the columns 
